@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?247ffdc2258197c7b19f225aaadaec23") format("truetype"),
+url("./flaticon.woff?247ffdc2258197c7b19f225aaadaec23") format("woff"),
+url("./flaticon.woff2?247ffdc2258197c7b19f225aaadaec23") format("woff2"),
+url("./flaticon.eot?247ffdc2258197c7b19f225aaadaec23#iefix") format("embedded-opentype"),
+url("./flaticon.svg?247ffdc2258197c7b19f225aaadaec23#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-no-handshake:before {
+    content: "\f101";
+}
+.flaticon-washing-hands:before {
+    content: "\f102";
+}
+.flaticon-mask:before {
+    content: "\f103";
+}
+.flaticon-cover-your-cough:before {
+    content: "\f104";
+}
